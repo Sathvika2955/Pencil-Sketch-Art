@@ -19,39 +19,43 @@ To run this project, install the required dependencies using the following comma
 pip install -r requirements.txt
 
 ```
-##**Usage**
+# **Usage**
 -Place the image you want to convert in the project directory.
 
 -Modify project.py to specify the correct image path.
 
 -Run the script using: python project.py
 
-##**Dependencies**
+# **Dependencies**
 
 Python 3.x
 
 OpenCV (cv2)
 
 
-##**Customization**
+# **Customization**
 
 To adjust the sketch intensity, modify the Gaussian blur kernel size in project.py:
+```bash
 
 blur = cv2.GaussianBlur(invert, (5, 5), 0)  # Change (5, 5) to (21, 21) for a softer effect
+```
 
 If the sketch is too light or dark, tweak the scale parameter in:
+```bash
 
 sketch = cv2.divide(gr, inverted_blur, scale=256.0)  # Lower the scale value for a darker sketch
+```
 
-**Contributing**
+# **Contributing**
 
 If you have suggestions for improvements, feel free to fork the repository and submit a pull request!
 
-**License**
+# **License**
 
 This project is for learning purposes. Feel free to modify and experiment!
 
-**Citation**
+# **Citation**
 If you use this project or reference it in any work, please credit:
 
 [Sathvika Nidadavolu]- (https://github.com/Sathvika2955)
