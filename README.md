@@ -56,6 +56,6 @@ If you have suggestions for improvements, feel free to fork the repository and s
 This project is for learning purposes. Feel free to modify and experiment!
 
 # **Citation**
-If you use this project or reference it in any work, please credit:
+If anyone of you use this project or reference it in any work, please credit:
 
 [Sathvika Nidadavolu]- (https://github.com/Sathvika2955)
