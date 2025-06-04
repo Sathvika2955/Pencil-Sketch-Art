@@ -25,6 +25,7 @@ else:
     # Save the sketch image
     cv2.imwrite(r'C:\Users\sathv\OneDrive\Documents\Sketchart\Sketch_Image.jpg', sketch)
 
+    
     # Display images
     cv2.imshow('Original Image', img)
     cv2.imshow('Sketch Image', sketch)
